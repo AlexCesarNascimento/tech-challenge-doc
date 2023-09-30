@@ -8,13 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://alexcesarnascimento.github.io',
+  baseUrl: '/tech-challenge-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'grupo-24',
-  projectName: 'TechChallengeFiap',
+  organizationName: 'AlexCesarNascimento',
+  projectName: 'tech-challenge-doc',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   presets: [
     [
@@ -24,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/AlexCesarNascimento/tech-challenge',
+          editUrl: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,7 +54,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/AlexCesarNascimento/tech-challenge',
+            href: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/AlexCesarNascimento/tech-challenge',
+                href: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',
               },
             ],
           },
