@@ -35,7 +35,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build with Nx
+      - name: Build
         run: npm run build
 
       - name: Upload Artifact
@@ -60,6 +60,7 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          artifact_name: github-pages
 
       - name: Install and run tree from Working Directory
         run: |
