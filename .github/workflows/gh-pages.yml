@@ -39,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2.0.4
+        uses: actions/upload-artifact@v2
         with:
           name: github-pages  # Nomeando o artefato como 'github-pages'
           path: build
