@@ -3,31 +3,31 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Substitua por 'master' se o seu branch principal for chamado de 'master'
+      - main  # Ou 'master', se for o caso do seu repositório
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Esta permissão é necessária para o GITHUB_TOKEN poder fazer commits no seu repositório
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2  # Esta ação verifica o repositório em seu commit mais recente no branch especificado acima
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-      - name: Setup Node
+      - name: Setup Node.js Environment
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # A versão do Node.js que você quer usar
+          node-version: '16'  # Ou a versão que você está utilizando em seu projeto
 
       - name: Install Dependencies
-        run: npm install  # Este comando instala dependências baseado no arquivo 'package.json'
+        run: npm install
 
-      - name: Build
-        run: npm run build  # Este comando cria os arquivos para publicação (substitua com o seu comando de build se diferente)
+      - name: Build Project
+        run: npm run build  # Ou o comando específico para build do seu projeto
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.7  # Esta ação faz o deploy dos seus arquivos para o GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages  # Este é o branch onde o GitHub Pages espera encontrar seu site
-          folder: build  # O diretório que a etapa de build gera (pode ser diferente dependendo do seu gerador de site estático, por exemplo, 'public' para alguns projetos)
-          clean: true  # Este flag é usado para preservar ou limpar os commits antigos no branch de destino
-          token: ${{ secrets.GITHUB_TOKEN }}  # Você não precisa criar um token pessoal para acessar o repositório já que o GitHub Actions fornece um token automático
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build  # Ou o diretório que contém os arquivos para serem publicados
