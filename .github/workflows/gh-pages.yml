@@ -57,14 +57,18 @@ jobs:
         with:
           name: github-pages
 
-      - name: Check for Symbolic Links
+      - name: Check for Symbolic Links and Hard Links
         run: |
           if find . -type l | grep -q .; then
             echo "Symbolic links found!"
             find . -type l
             exit 1
+          elif find . -type f -links +1 | grep -q .; then
+            echo "Hard links found!"
+            find . -type f -links +1
+            exit 1
           else
-            echo "No symbolic links found."
+            echo "No symbolic or hard links found."
           fi
 
       - name: Deploy to GitHub Pages
