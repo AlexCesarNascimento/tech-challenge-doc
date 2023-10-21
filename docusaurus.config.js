@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Fiap Burger',
+  tagline: 'Documentação Tech Challenge - FIAP',
   url: 'https://alexcesarnascimento.github.io',
   baseUrl: '/tech-challenge-doc/',
   onBrokenLinks: 'throw',
@@ -51,7 +51,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentação',
           },
           {
             href: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',

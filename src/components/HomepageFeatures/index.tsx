@@ -10,32 +10,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Conectando Pontos',
+    Svg: require('@site/static/img/hamburger-rafiki.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Reunimos a equipe, compartilhamos histórias e, de repente, os desafios
+          do negócio ficaram claros como o dia. Esse método uniu todos de um
+          jeito simples e, ao trocar experiências, vimos o cenário completo. Com
+          essa clareza, acertar nas soluções foi um pulo!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Implementação Intuitiva',
+    Svg: require('@site/static/img/chef-bro.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          O DDD entrou em cena e revolucionou nosso projeto desde o começo.
+          Ele guiou a equipe pelos meandros do negócio com uma abordagem
+          que todos pegaram rápido. Isso deixou a implementação das soluções
+          mais afiada e certeira.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Colaboração Enriquecida pelo DDD',
+    Svg: require('@site/static/img/hamburger-pana.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Com o DDD, nossa comunicação de equipe mudou da água para o vinho. Criamos uma
+          linguagem comum que deixou todos afiados nos objetivos do negócio. Menos ruído,
+          mais clareza. Agora, ajustes e mudanças rolam fácil, sem quebrar a harmonia do
+          projeto.
       </>
     ),
   },
