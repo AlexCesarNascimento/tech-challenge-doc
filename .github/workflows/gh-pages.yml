@@ -54,12 +54,24 @@ jobs:
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v2
+        with:
+          name: github-pages
+
+      - name: Check for Symbolic Links
+        run: |
+          if find . -type l | grep -q .; then
+            echo "Symbolic links found!"
+            find . -type l
+            exit 1
+          else
+            echo "No symbolic links found."
+          fi
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: github-pages
+          artifact_name: github-pages  # este é o nome do artefato que foi baixado
 
       - name: Install and run tree from Working Directory
         run: |
