@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_challenge_doc=self.webpackChunktech_challenge_doc||[]).push([[2706],{2453:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/tech-challenge-doc/blog/tags/hello","allTagsPath":"/tech-challenge-doc/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_challenge_doc=self.webpackChunktech_challenge_doc||[]).push([[9745],{2108:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/tech-challenge-doc/blog/tags/docusaurus","allTagsPath":"/tech-challenge-doc/blog/tags","count":4}')}}]);
