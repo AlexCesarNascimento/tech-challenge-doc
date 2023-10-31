@@ -54,7 +54,7 @@ const config = {
             label: 'Documentação',
           },
           {
-            href: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',
+            href: 'http://localhost:8989/swagger-ui/index.html',
             label: 'Swagger',
             position: 'right',
           },
