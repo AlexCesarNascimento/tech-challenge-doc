@@ -55,6 +55,11 @@ const config = {
           },
           {
             href: 'https://github.com/AlexCesarNascimento/tech-challenge-doc',
+            label: 'Swagger',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/lucasmneves/tech-challenge-java',
             label: 'GitHub',
             position: 'right',
           },
