@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Fiap Burger',
-  tagline: 'Documentação Tech Challenge - FIAP',
+  title: 'Health&Med',
+  tagline: 'Documentação Hackathon - Health&Med',
   url: 'https://alexcesarnascimento.github.io',
   baseUrl: '/tech-challenge-doc/',
   onBrokenLinks: 'throw',
@@ -41,9 +41,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Fiap Burger',
+        title: 'Health&Med',
         logo: {
-          alt: 'Fiap Burger Logo',
+          alt: 'Health&Med Logo',
           src: 'img/docusaurus.png',
         },
         items: [
