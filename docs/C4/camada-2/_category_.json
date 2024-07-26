@@ -1,0 +1,8 @@
+{
+  "label": "C2: Arquitetura da Cloud",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Uma visão de alto nível da infraestrutura de nuvem utilizada pelo sistema."
+  }
+}

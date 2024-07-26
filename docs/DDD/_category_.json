@@ -1,0 +1,8 @@
+{
+  "label": "Domain-Driven Design (DDD)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Apresenta a abordagem de design orientada ao domínio, incluindo a linguagem ubíqua, visão macro do domínio (Big Picture) e mapeamento de contextos (Context Map).\n\n\n\n\n\n"
+  }
+}

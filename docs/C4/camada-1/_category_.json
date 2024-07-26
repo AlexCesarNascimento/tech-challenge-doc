@@ -1,0 +1,8 @@
+{
+  "label": "C1: Contexto do Sistema\n",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A posição do sistema no ambiente maior, incluindo seus principais relacionamentos com usuários e outros sistemas."
+  }
+}

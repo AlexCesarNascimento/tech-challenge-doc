@@ -54,8 +54,13 @@ const config = {
             label: 'Documentação',
           },
           {
-            href: 'http://localhost:8989/swagger-ui/index.html',
-            label: 'Swagger',
+            href: '/tech-challenge-doc/doc-jp/index.html',
+            label: 'javadoc',
+            position: 'right',
+          },
+          {
+            href: '/index.html',
+            label: 'swagger',
             position: 'right',
           },
           {

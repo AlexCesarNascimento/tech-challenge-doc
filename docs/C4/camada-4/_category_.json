@@ -1,0 +1,8 @@
+{
+  "label": "C4: Componentes Internos",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A estrutura interna dos contêineres, incluindo componentes de software específicos."
+  }
+}
