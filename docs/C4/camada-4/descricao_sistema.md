@@ -2,9 +2,21 @@
 sidebar_position: 1
 ---
 
-# Descrição Geral do Sistema
+# Arquitetura do microserviço
+# Visão Geral
 
-A Health&Med é uma startup inovadora no setor de saúde, dedicada a transformar a telemedicina no Brasil. Atualmente, oferece agendamento e realização de consultas online através de sistemas de terceiros como Google Agenda e Google Meetings. Com um recente aporte financeiro, a empresa decidiu desenvolver um sistema proprietário para melhorar a qualidade do serviço, aumentar a segurança dos dados dos pacientes e reduzir custos. Este novo sistema será robusto, escalável e seguro, permitindo um gerenciamento eficiente de agendamentos e consultas online, e incluirá um diferencial significativo: o Prontuário Eletrônico, que facilitará o armazenamento e compartilhamento de registros médicos, garantindo maior assertividade nos diagnósticos.
+Implementação de um microserviço, utilizando Java 17, framework Spring Boot, e arquitetura hexagonal. A aplicação base se conecta a um banco de dados PostgreSQL via JPA (Java Persistence API) e fornece funcionalidades CRUD (Create, Read, Update, Delete).
 
-O sistema atenderá a requisitos funcionais, como autenticação de usuários, gestão de horários e consultas, e teleconsultas, além de requisitos não funcionais, como alta disponibilidade, escalabilidade para suportar até 20.000 usuários simultâneos em horários de pico, e robustez na segurança dos dados dos pacientes. A Health&Med está comprometida em oferecer uma experiência mais eficiente e segura para médicos e pacientes, consolidando-se como uma referência no setor de saúde digital.
+| Tecnologias Utilizadas            | Motivo da escolha                                                                                                               |
+|-----------------------------      |---------------------------------------------------------------------------------------------------------------------------------|
+| **Java 17**                       | Estabilidade e suporte contínuo, além da versão possuir melhorias de desempenho e novas funcionalidades, como records, pattern matching, e melhorias no garbage collector.                                                         |
+| **Spring Boot**                   | Facilidade de configuração, desenvolvimento rápido e simples, facilitando a criação de microserviços por conta do suporte nativo para APIs RESTFul.                                                                |
+| **Arquitetura Hexagonal**         | Separação de Preocupações, lógica de negócio isolada de infraestrutura. Testabilidade, facilita testes unitários e de integração. Flexibilidade, mudança de tecnologias sem afetar a lógica central.                                       |
+| **JPA (Java Persistence API)**    | Abstração de Persistência: Facilita troca de tecnologias de banco de dados. Consultas dinâmicas, utilização de JPQL ou Criteria API. Integração com Spring Data, manipulação de dados simplificada.                   |
+| **Banco de dados PostgreSQL**     | Open Source, sem custos de licenciamento. Confiabilidade e estabilidade, amplamente utilizado em produção. Performance, excelente para consultas complexas e grandes volumes de dados. |
+
+# Estrutura do Projeto
+A estrutura do projeto é organizada de acordo com a arquitetura hexagonal, também conhecida como arquitetura de ports and adapters. A estrutura de pastas segue o padrão abaixo:
+
+![Estrutura de pastas](../../pastas-projeto.png)
 
