@@ -10,38 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Conectando Pontos',
-    Svg: require('@site/static/img/hamburger-rafiki.svg').default,
+    title: 'Fortalecendo laços para a saúde',
+    Svg: require('@site/static/img/prescription-bro.svg').default,
     description: (
       <>
-          Reunimos a equipe, compartilhamos histórias e, de repente, os desafios
-          do negócio ficaram claros como o dia. Esse método uniu todos de um
-          jeito simples e, ao trocar experiências, vimos o cenário completo. Com
-          essa clareza, acertar nas soluções foi um pulo!
+        Na HealthMed, cada consulta é uma oportunidade de ouvir e entender. Nossa equipe dedica tempo para conhecer cada paciente, discutindo suas necessidades e oferecendo cuidados personalizados. Esse método torna o tratamento mais eficaz e a experiência do paciente mais positiva. Com HealthMed, você recebe atenção e cuidado que fazem a diferença.
       </>
     ),
   },
   {
     title: 'Implementação Intuitiva',
-    Svg: require('@site/static/img/chef-bro.svg').default,
+    Svg: require('@site/static/img/call-bro.svg').default,
     description: (
       <>
-          O DDD entrou em cena e revolucionou nosso projeto desde o começo.
-          Ele guiou a equipe pelos meandros do negócio com uma abordagem
-          que todos pegaram rápido. Isso deixou a implementação das soluções
-          mais afiada e certeira.
+        Na HealthMed, acreditamos no poder da conexão. Nossos pacientes e profissionais de saúde utilizam a telemedicina para se comunicar, compartilhar histórias e resolver desafios. Através de uma simples chamada de vídeo, a clareza no diagnóstico e no tratamento é alcançada. Nossa tecnologia une pessoas, tornando o cuidado mais acessível e eficaz. Com HealthMed, a saúde está sempre ao seu alcance.
       </>
     ),
   },
   {
-    title: 'Colaboração Enriquecida pelo DDD',
-    Svg: require('@site/static/img/hamburger-pana.svg').default,
+    title: 'Atendimento Personalizado',
+    Svg: require('@site/static/img/Medicine-bro.svg').default,
     description: (
       <>
-          Com o DDD, nossa comunicação de equipe mudou da água para o vinho. Criamos uma
-          linguagem comum que deixou todos afiados nos objetivos do negócio. Menos ruído,
-          mais clareza. Agora, ajustes e mudanças rolam fácil, sem quebrar a harmonia do
-          projeto.
+        Reunimos nossa equipe, trocamos experiências e, de repente, os desafios da saúde ficaram claros. Com essa união simples, vimos o cenário completo e as soluções ficaram óbvias. No HealthMed, a clareza vem da colaboração e isso transforma o cuidado com nossos pacientes.
       </>
     ),
   },

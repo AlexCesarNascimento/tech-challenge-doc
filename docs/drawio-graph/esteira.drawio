@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-07-26T02:40:55.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="pBrfo9LECJahQIi_UpWh" version="22.0.0" type="device">
+  <diagram id="tcJoGeuxI8kGtLN16Q2e" name="Página-1">
+    <mxGraphModel dx="1418" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="7" y="6" width="826" height="465" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-19" value="Version&amp;nbsp;&lt;div&gt;control&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="116" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-20" value="Build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="228" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-21" value="Unity test" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="344" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-22" value="Quality&amp;nbsp;&lt;div&gt;gate&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="464" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-23" value="Deploy&lt;div&gt;Dev/Hml&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="584" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-24" value="Open PR&amp;nbsp;&lt;div&gt;release&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8282ff;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="695" y="67" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Develop&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="92" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-26" value="Build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e15d5d;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="118" y="180" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-27" value="Unity test" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e15d5d;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="234" y="180" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-28" value="Quality&amp;nbsp;&lt;div&gt;gate&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e15d5d;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="345" y="180" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-29" value="Deploy&lt;div&gt;Prod&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e15d5d;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-30" value="Open pr&amp;nbsp;&lt;div&gt;main&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e15d5d;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="585" y="180" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Release&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Main&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="29" y="317" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsN_BGVYSNE3-ffO-6VM-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Close&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6db2ff;" vertex="1" parent="1">
+          <mxGeometry x="116" y="294" width="106" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

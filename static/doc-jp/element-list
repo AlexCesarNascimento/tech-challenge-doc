@@ -1,0 +1,14 @@
+com.fiap.customer
+com.fiap.customer.core.configs
+com.fiap.customer.core.domains.entities
+com.fiap.customer.core.domains.exception
+com.fiap.customer.core.ports.in
+com.fiap.customer.core.ports.out
+com.fiap.customer.core.usecase
+com.fiap.customer.infraestructure.adapters
+com.fiap.customer.infraestructure.api.controllers
+com.fiap.customer.infraestructure.api.requests
+com.fiap.customer.infraestructure.api.responses
+com.fiap.customer.infraestructure.persistence.entities
+com.fiap.customer.infraestructure.persistence.repositorys
+com.fiap.customer.infraestructure.utils.mappers

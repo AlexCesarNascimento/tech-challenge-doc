@@ -1,0 +1,8 @@
+{
+  "label": "workflow",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Acompanhamento de branches, feature, release e hotfix. Automatize a criação e a integração de novas funcionalidades"
+  }
+}

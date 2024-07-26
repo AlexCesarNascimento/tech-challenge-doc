@@ -1,0 +1,8 @@
+{
+  "label": "Visão Geral da Arquitetura (C4 Model)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Descreve a arquitetura do sistema em diferentes níveis de abstração, utilizando o modelo C4 para uma visualização clara e estruturada."
+  }
+}
