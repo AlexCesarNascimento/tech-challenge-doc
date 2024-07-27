@@ -198,4 +198,4 @@ Este documento descreve a funcionalidade e a arquitetura do microserviço de ges
 
 ## Considerações Finais
 
-O microserviço de gestão de usuários no projeto [Nome do Projeto] foi desenvolvido com foco em segurança e funcionalidade robusta. As práticas recomendadas pela OWASP foram implementadas para garantir que os dados dos usuários estejam sempre protegidos. A arquitetura modular permite fácil manutenção e expansão do sistema conforme necessário.
+O microserviço de gestão de usuários no projeto foi desenvolvido com foco em segurança e funcionalidade robusta. As práticas recomendadas pela OWASP foram implementadas para garantir que os dados dos usuários estejam sempre protegidos. A arquitetura modular permite fácil manutenção e expansão do sistema conforme necessário.
