@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854a72a4-9d6d-4613-8837-35f8c55c43f5" name="Changes" comment="feat: criando nova doc 2">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tech-challenge-doc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="arn:aws:eks:us-east-1:643230847802:cluster/cluster-fiap" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jctmQUZLFCOSoz469aAkW8uEiP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Workspace/tech-challenge-5/tech-challenge-doc/docs/mvp",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Programas\\WebStorm 2022.2.5\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\docs\mvp" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\docs\drawio-graph" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\pages\jp" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\docs\workflow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\static\img" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\static" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\doc-jp" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\docs\C4\camada-1" />
+      <recent name="D:\Workspace\tech-challenge-5\tech-challenge-doc\docs\2-DDD" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854a72a4-9d6d-4613-8837-35f8c55c43f5" name="Changes" comment="" />
+      <created>1721698356046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721698356046</updated>
+      <workItem from="1721698364010" duration="1984000" />
+      <workItem from="1721873798619" duration="671000" />
+      <workItem from="1721874514528" duration="266000" />
+      <workItem from="1721874896406" duration="198000" />
+      <workItem from="1721875129390" duration="92000" />
+      <workItem from="1721875237190" duration="4417000" />
+      <workItem from="1721954679847" duration="8524000" />
+      <workItem from="1722032778484" duration="7405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: criando nova doc" />
+    <MESSAGE value="feat: criando nova doc 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: criando nova doc 2" />
+  </component>
+</project>
