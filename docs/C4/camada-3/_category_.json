@@ -1,8 +1,8 @@
 {
-  "label": "C3: Contêineres",
+  "label": "C3: containers ",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Os contêineres de aplicação e como eles interagem para formar o sistema.\n"
+    "description": "Os containers de aplicação e como eles interagem para formar o sistema.\n"
   }
 }

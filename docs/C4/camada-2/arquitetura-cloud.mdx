@@ -9,40 +9,26 @@ import simpleGraph from '!!raw-loader!../../drawio-graph/arquitetura-cloud.drawi
 
 <Drawio content={simpleGraph} editable={true} highlight={true} page={1} />
 
-## Visão Geral
+## Introdução
 
-O sistema é projetado para enviar notificações aos usuários com base em eventos específicos.
+A AWS proporciona uma plataforma escalável, flexível e segura que permite o desenvolvimento e a implementação de aplicações robustas. Com a AWS, é possível reduzir custos operacionais, melhorar a performance e a disponibilidade das aplicações, e se beneficiar de uma vasta gama de serviços gerenciados que facilitam a gestão de infraestrutura e serviços.
 
-## Componentes do Sistema
+## Componentes da Arquitetura
 
-### 1. Sistema
-
-O componente central responsável por gerenciar a comunicação e as operações internas. O Sistema processa dados e aciona notificações quando necessário.
-
-### 2. Notificação
-
-O elemento que representa a mensagem enviada pelo Sistema aos usuários. As notificações podem conter informações variadas, como prontuários, agendamentos confirmados, agendamentos cancelados, mensagens e links de agendamentos.
-
-### 3. Usuários
-
-Os destinatários das notificações enviadas pelo Sistema. Os usuários podem ser indivíduos que precisam ser informados sobre eventos específicos relacionados a suas contas ou atividades.
-
-## Fluxo de Funcionamento
-
-1. **Envio de Notificação**: O Sistema é responsável por enviar notificações para os usuários. Quando um evento relevante ocorre, o Sistema gera uma notificação contendo todas as informações necessárias e a envia aos usuários.
-
-2. **Tipos de Informações nas Notificações**:
-    - **Prontuários**: Informações sobre o histórico médico do usuário.
-    - **Agendamentos Confirmados**: Detalhes sobre compromissos que foram confirmados.
-    - **Agendamentos Cancelados**: Informações sobre compromissos que foram cancelados.
-    - **Mensagens**: Comunicados gerais ou específicos para o usuário.
-    - **Link dos Agendamentos**: Links para acessar detalhes dos agendamentos.
-
-3. **Processo de Notificação**:
-    - O Sistema monitora eventos relevantes que exigem a comunicação com os usuários.
-    - Quando um evento é detectado, o Sistema compila as informações pertinentes e forma uma notificação.
-    - A notificação é então enviada aos usuários, que recebem as informações em tempo real ou dentro do período definido pelo Sistema.
-
-## Conclusão
-
-O sistema de notificações é uma ferramenta essencial para manter os usuários informados sobre eventos importantes. Através de um fluxo estruturado de comunicação, o Sistema garante que as informações corretas sejam entregues de maneira eficiente e eficaz.
+1. **App Angular**: Interface do usuário hospedada no S3 e distribuída pelo CloudFront.
+2. **Amazon S3**: Armazenamento de objetos estáticos e recursos de front-end.
+3. **Amazon CloudFront**: Distribuição de conteúdo global, melhorando a latência.
+4. **Amazon Cognito**: Gerenciamento de autenticação e autorização dos usuários.
+5. **AWS WAF**: Firewall para proteção contra ameaças e ataques web.
+6. **AWS Shield**: Proteção contra ataques DDoS.
+7. **Amazon Route 53**: Gerenciamento de DNS para roteamento eficiente de tráfego.
+8. **API Gateway**: Interface para chamadas de API, gerenciando tráfego de requisições.
+9. **Network Load Balancer**: Distribui o tráfego de rede entre os serviços.
+10. **Amazon EKS (Cluster)**: Orquestração de contêineres, gerenciando a execução dos microserviços.
+11. **Amazon RDS**: Banco de dados relacional para armazenamento persistente.
+12. **AWS Backup**: Automação de backups e recuperação de dados.
+13. **AWS Secrets Manager**: Gerenciamento seguro de credenciais e informações sensíveis.
+14. **Amazon SQS**: Serviço de fila de mensagens para desacoplar componentes do sistema.
+15. **Amazon SNS**: Serviço de notificação para envio de mensagens.
+16. **Amazon CloudWatch**: Monitoramento e observabilidade das aplicações e serviços.
+17. **Grafana**: Visualização e análise de dados de monitoramento.
