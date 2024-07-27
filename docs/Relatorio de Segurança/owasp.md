@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Introdução
 
-O projeto [Nome do Projeto] está comprometido com a segurança de suas aplicações web e adota as melhores práticas recomendadas pela OWASP (Open Web Application Security Project). Esta documentação descreve como tratamos os principais riscos de segurança identificados pela OWASP Top 10, contextualizados para as funcionalidades do projeto, conforme os diagramas fornecidos.
+O projeto Health está comprometido com a segurança de suas aplicações web e adota as melhores práticas recomendadas pela OWASP (Open Web Application Security Project). Esta documentação descreve como tratamos os principais riscos de segurança identificados pela OWASP Top 10, contextualizados para as funcionalidades do projeto, conforme os diagramas fornecidos.
 
 ## OWASP Top 10 - 2021 no Contexto do Projeto
 
