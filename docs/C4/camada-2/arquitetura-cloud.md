@@ -1,0 +1,43 @@
+---
+sidebar_position: 1
+---
+
+# Documentação Funcional do Sistema de Notificações
+
+## Visão Geral
+
+Este documento descreve a funcionalidade de um sistema de gerenciamento de notificações. O sistema é projetado para enviar notificações aos usuários com base em eventos específicos.
+
+## Componentes do Sistema
+
+### 1. Sistema
+
+O componente central responsável por gerenciar a comunicação e as operações internas. O Sistema processa dados e aciona notificações quando necessário.
+
+### 2. Notificação
+
+O elemento que representa a mensagem enviada pelo Sistema aos usuários. As notificações podem conter informações variadas, como prontuários, agendamentos confirmados, agendamentos cancelados, mensagens e links de agendamentos.
+
+### 3. Usuários
+
+Os destinatários das notificações enviadas pelo Sistema. Os usuários podem ser indivíduos que precisam ser informados sobre eventos específicos relacionados a suas contas ou atividades.
+
+## Fluxo de Funcionamento
+
+1. **Envio de Notificação**: O Sistema é responsável por enviar notificações para os usuários. Quando um evento relevante ocorre, o Sistema gera uma notificação contendo todas as informações necessárias e a envia aos usuários.
+
+2. **Tipos de Informações nas Notificações**:
+    - **Prontuários**: Informações sobre o histórico médico do usuário.
+    - **Agendamentos Confirmados**: Detalhes sobre compromissos que foram confirmados.
+    - **Agendamentos Cancelados**: Informações sobre compromissos que foram cancelados.
+    - **Mensagens**: Comunicados gerais ou específicos para o usuário.
+    - **Link dos Agendamentos**: Links para acessar detalhes dos agendamentos.
+
+3. **Processo de Notificação**:
+    - O Sistema monitora eventos relevantes que exigem a comunicação com os usuários.
+    - Quando um evento é detectado, o Sistema compila as informações pertinentes e forma uma notificação.
+    - A notificação é então enviada aos usuários, que recebem as informações em tempo real ou dentro do período definido pelo Sistema.
+
+## Conclusão
+
+O sistema de notificações é uma ferramenta essencial para manter os usuários informados sobre eventos importantes. Através de um fluxo estruturado de comunicação, o Sistema garante que as informações corretas sejam entregues de maneira eficiente e eficaz.
