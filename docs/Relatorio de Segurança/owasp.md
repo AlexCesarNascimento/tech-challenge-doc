@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Documentação de Segurança - OWASP no Contexto do Projeto
+# OWASP no Contexto do Projeto
 
 ## Introdução
 
