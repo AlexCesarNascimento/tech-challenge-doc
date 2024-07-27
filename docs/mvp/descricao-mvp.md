@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Documentação Funcional do Microserviço de Gestão de Usuários
+# Documentação do Microserviço de Gestão de Usuários
 
 ## Sumário
 
