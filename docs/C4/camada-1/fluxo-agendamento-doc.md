@@ -7,6 +7,12 @@ sidebar_position: 5
 ## Introdução
 Este diagrama representa o processo de agendamento de consultas médicas, desde o login do paciente até a geração do link da reunião. Ele ilustra o fluxo de interações entre pacientes, médicos e o sistema de agendamento.
 
+import Drawio from '@theme/Drawio'
+import simpleGraph from '!!raw-loader!../../drawio-graph/fluxo-agendamentos.drawio';
+
+<Drawio content={simpleGraph} editable={true} highlight={true} page={1} />
+
+
 ## Componentes do Diagrama
 
 ### Entidades

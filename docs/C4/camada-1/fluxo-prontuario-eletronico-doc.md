@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 ---
+# Prontuário Eletrônico
 
 #### Visão Geral
 Este documento descreve o fluxo de um sistema de prontuário eletrônico, focando em suas principais funcionalidades e interações entre os componentes.

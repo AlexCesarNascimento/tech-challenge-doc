@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 
 
-# Documentação Funcional do Sistema de Notificações
+# Sistema de Notificações
 
 ## Descrição Geral
 
