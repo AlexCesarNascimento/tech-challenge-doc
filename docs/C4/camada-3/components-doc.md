@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Documentação Funcional do Sistema de Telemedicina
+# Documentação de Componentes
 
 ## Visão Geral
 
