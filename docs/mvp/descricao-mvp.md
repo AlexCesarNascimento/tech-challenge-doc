@@ -21,7 +21,7 @@ sidebar_position: 1
 
 ## Introdução
 
-Este documento descreve a funcionalidade e a arquitetura do microserviço de gestão de usuários, parte do projeto [Nome do Projeto]. O objetivo deste microserviço é gerenciar as operações relacionadas aos usuários, como autenticação, autorização e manutenção de dados dos usuários. Esta documentação abrange os componentes principais, fluxos de dados, e detalhes de segurança conforme os diagramas e documentações fornecidos.
+Este documento descreve a funcionalidade e a arquitetura do microserviço de gestão de usuários, parte do projeto. O objetivo deste microserviço é gerenciar as operações relacionadas aos usuários, como autenticação, autorização e manutenção de dados dos usuários. Esta documentação abrange os componentes principais, fluxos de dados, e detalhes de segurança conforme os diagramas e documentações fornecidos.
 
 ## Arquitetura do Microserviço
 
